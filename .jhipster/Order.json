@@ -1,0 +1,36 @@
+{
+  "microserviceName": "OrderService",
+  "clientRootFolder": "OrderService",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "orderPlacedDateAndTime",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "orderCompletedDateAndTime",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "entityTableName": "jhi_order",
+  "name": "Order",
+  "changelogDate": "20210817183321"
+}
